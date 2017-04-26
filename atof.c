@@ -1,4 +1,5 @@
 #include <ctype.h>
+#include "atof.h"
 
 // s to double
 double atof(char s[])

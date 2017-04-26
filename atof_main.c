@@ -1,8 +1,7 @@
 // K&R 4.2 atof: converts argv[1] string to float
 // compile gcc main.c atof.c -o main.exe
 #include <stdio.h>
-
-double atof(char[]); // must have a declaration of function
+#include "atof.h"
 
 int main(int argc, char *argv[])
 {
